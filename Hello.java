@@ -2,7 +2,6 @@ public class Hello
 {
 	public static void main(string[] arg)
 	{
-		//this is an unwanted but staged comment
 		string name = "World";
 		if(arg.length != 0)
 		{
