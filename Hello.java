@@ -2,6 +2,12 @@ public class Hello
 {
 	public static void main(string[] arg)
 	{
-		System.out.println("Hello " arg[0] + "!");
+		string name = "World";
+		if(arg.length != 0)
+		{
+			name = arg[0];
+		}
+		
+		System.out.println("Hello, " + name + "!");	
 	}
 }
